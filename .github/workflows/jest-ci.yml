@@ -28,5 +28,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
+          context: "{{defaultContext}}:client"
           tags: duygusnz51/quete1902:latest
 
